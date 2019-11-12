@@ -1,0 +1,34 @@
+apply plugin: 'com.android.library'
+
+// This is the library version used when deploying the artifact
+//version = VERSION_NAME
+
+android {
+    signingConfigs {
+    }
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+    }
+    sourceSets.main {
+        assets.srcDirs = ['assets']
+        jni.srcDirs = [] //disable automatic ndk-build
+        jniLibs.srcDirs = ['libs']
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation 'com.squareup.assertj:assertj-android:1.0.0'
+}
+
