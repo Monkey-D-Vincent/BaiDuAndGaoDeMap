@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="定位"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/toolbars_bg"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/text_gray"/>
+
+    <TextView
+        android:id="@+id/tv_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POI 检索"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/toolbars_bg"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/text_gray"/>
+
+    <TextView
+        android:id="@+id/tv_route"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="路线规划"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/toolbars_bg"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/text_gray"/>
+
+    <TextView
+        android:id="@+id/tv_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="导航"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/toolbars_bg"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/text_gray"/>
+
+    <TextView
+        android:id="@+id/tv_routeTrace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="路线追踪"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/toolbars_bg"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/text_gray"/>
+
+    <TextView
+        android:id="@+id/tv_car"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="小车平湖移动"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/toolbars_bg"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/text_gray"/>
+</LinearLayout>

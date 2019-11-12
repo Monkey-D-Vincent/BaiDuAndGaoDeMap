@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="lucency">#00000000</color>
+
+    <color name="transblue">#6042a6e5</color>
+
+    <color name="txt_blue">#274dab</color>
+    <color name="txt_gray">#a1a6a9</color>
+    <color name="pop_list_bg_green">#40AB5A</color>
+
+    <color name="txt_dark_gray">#656565</color>
+    <color name="txt_light_black">#333333</color>
+    <color name="txt_press_blue">#66ccff</color>
+    <color name="txt_green">#4ba47d</color>
+    <color name="divider_color">#ffd5d9df</color>
+    <color name="txt_orange">#d97b11</color>
+    <color name="trans_orange">#88d97b11</color>
+    <color name="progress_bg">#EFEFEF</color>
+    <color name="progress_febg">#1BA2D7</color>
+    <color name="grayline">#E3E4E5</color>
+    <color name="grayline2">#DBDDDB</color>
+    <color name="linestroke">#41556F</color>
+
+    <color name="bg_blue_gray">#90233D55</color>
+
+    <color name="background">#EEEEEE</color>
+    <color name="orangeline">#ef8435</color>
+    <color name="radio_bg_green">#4ca47f</color>
+    <color name="cube_mints_333333">#333333</color>
+    <color name="txt_purple">#a06ad8</color>
+    <color name="actionbar_opacity">#33000000</color>
+
+    <color name="head_gray">#E7E7E7</color>
+    <color name="head_red">#E82B2B</color>
+    <color name="head_orange">#EF7327</color>
+    <color name="head_yellow">#EFC041</color>
+    <color name="app_bg">#072455</color>
+
+    <color name="listbg_color1">#FEFFFF</color>
+    <color name="listbg_color2">#F7F8F9</color>
+    <color name="btn_blue_normal">#106CC8</color>
+    <color name="btn_blue_press">#003a74</color>
+    <color name="btn_blue_info">#0E3254</color>
+    <color name="btn_blue_notification">#2090BA</color>
+
+    <color name="green">#00AB38</color>
+    <color name="red">#E44444</color>
+    <color name="blue">#1B84D6</color>
+    <color name="orange">#ffcc00</color>
+    <color name="gray_search">#959595</color>
+
+    <color name="bg_blue_title">#1794C8</color>
+    <color name="bg_green_title">#2A9722</color>
+    <color name="bg_orange_title">#CC842B</color>
+    <color name="bg_green_light_title">#30D405</color>
+
+    <color name="toolbars_bg">#1794C8</color>
+
+    <color name="starttask_top_text">#557397</color>
+    <color name="starttask_listview_text">#6e9dca</color>
+    <color name="text_green">#3edd2e</color>
+    <color name="text_red">#fb1c24</color>
+    <color name="text_yellow">#feca2f</color>
+    <color name="text_blue">#20BCFB</color>
+
+    <color name="maketask_default_text">#cfe6fe</color>
+    <color name="maketask_content_text">#20bcfb</color>
+
+
+    <color name="handletask_stoptime_text">#1794c8</color>
+    <color name="alpha_light_handletask_stoptime_text">#aa1794c8</color>
+    <color name="alpha_weight_handletask_stoptime_text">#dd1794c8</color>
+
+    <color name="bg_fl_dfcz">#80bdb945</color>
+
+    <color name="text_white_blue">#D3EDFE</color>
+    <color name="text_gray">#87AACC</color>
+    <color name="text_blue_durk">#5487B5</color>
+    <color name="line_blue">#42587E</color>
+    <color name="lineblue">#23425C</color>
+
+    <color name="list_qualities_bg">#88FFFFFF</color>
+</resources>

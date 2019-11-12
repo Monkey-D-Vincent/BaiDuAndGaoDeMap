@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:paddingTop="10dp"
+        android:drawableLeft="@drawable/shape_circle_start"
+        android:drawablePadding="5dp"
+        android:paddingBottom="10dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/gray_search"
+        android:background="@drawable/shape_search"
+        android:text="你从那上车"/>
+
+    <TextView
+        android:id="@+id/tv_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:paddingTop="10dp"
+        android:drawableLeft="@drawable/shape_circle_end"
+        android:drawablePadding="5dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/shape_search"
+        android:textColor="@color/gray_search"
+        android:text="你要去哪儿"/>
+
+    <TextView
+        android:id="@+id/tv_tag"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/shape_search"
+        android:textColor="@color/gray_search"
+        android:text="用时最少"/>
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/mMapView"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
